@@ -83,7 +83,11 @@ print(test)
 
 ---
 
-> [!NOTE] **To preview markdown file**
+[!NOTE]
+To preview markdown file
 
 > install extention: Markdown Preview Enhanced (by Yiyi Wang)
 > to run preview on side: **_(Ctrl+k) v_**
+
+> [!WARNING]
+> This is a warning.
