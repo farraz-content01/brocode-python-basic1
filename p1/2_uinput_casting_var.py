@@ -1,30 +1,32 @@
+# %% P1.3. Type Casting
+# Type Casting is the process of converting one data type to another data type
 name = "Bro Code"
 age = 21
 gpa = 3.2
 is_student = True
 
-print("--Data Types--")
+print("--Example 1: display 'Data Types'--")
 print("type(name): ",type(name))      # type(name):  <class 'str'> 
 print("type(age): ",type(age))       # type(age):  <class 'int'> 
 print("type(gpa): ",type(gpa))       # type(gpa):  <class 'float'>
 print("type(is_student): ",type(is_student))  # type(is_student):  <class 'bool'>
 
-print("--Casting--")
-print("Name: " + name)       # printing str > Name: Bro Code
+print("\n--Example 2: use Type Casting--")
+print("Name: " + name)       # output: Name: Bro Code
 
-print("Age: ",float(age))  # casting int to float > Age:  21.0
-print("Age: " + str(age))  # casting int to str > Age:  21
-print("Age: " + str(float(age)))  # casting int to float to str > Age:  21.0
+print("Cast: int-to-float => float(age): ",float(age)) 
+print("Cast: int-to-str => str(age): " + str(age)) 
+print("Cast: int-to-float-to-str => str(float(age)): " + str(float(age)))
 
-print("GPA: " + str(gpa))    # casting float to str > GPA:  3.2
-print("GPA: ",int(gpa))    # casting float to int > GPA:  3
+print("Cast: float-to-str => str(gpa): " + str(gpa))
+print("Cast: float-to-int => int(gpa): ",int(gpa))
 
-print("Student: " + str(is_student))  # casting bool to str
+print("Cast: bool-to-str => str(is_student): " + str(is_student))  # casting bool to str
 print("")
 
-#TODO: Exercise 0 - user input and casting
+# %% P1.4. User Input
 #! NOTE: input() returns a str - so we need to cast it to the desired type
-print("--Exercise 0: User Input and Casting--")
+print("--Example 3: User Input and Casting--")
 name = input("Enter your name: ")  #? input() returns a str
 age = int(input("Enter your age: "))  # casting str to int
 # age = int(age)  # casting str to int
@@ -38,16 +40,18 @@ print("Hello {}! Next year, you will be {} years old.".format(name, age))  # usi
 print("Hello %s! Next year, you will be %d years old." % (name, age))  # using str.format() method  
 print("") # New line for better readability
 
-print("--Exercise 1: Rectangle Area Calc--")
+# %%
+print("--Example 4: Input > (length + width) > Rectangle Area--")
 #! NB: input() returns a str - need to cast it to the 'int' / 'float' for MATH operations
 length = float(input("Enter length: "))  # casting str to float 
 width = float(input("Enter width: "))  # casting str to float
+print(f"input(length): {length}, input(width): {width}")
 
 area = length * width
-print("Total Area: " + str(area))  # casting float to str
-print("")
+print("Total Area: length x width => str(area): " + str(area))  # casting float to str
 
-print("--Exercise 2: Shopping Cart Program--")
+# %%
+print("--Example 5: Input > (item name + price + quantity) > Total Payment--")
 item1 = input("Enter item 1: ")
 price1 = float(input("Enter price of item 1: "))  # casting str to float
 quantity1 = int(input("Enter quantity of item 1: "))  # casting str to int
@@ -57,6 +61,7 @@ print("Total payment for " + item1 + " => $" + str(Total_cost1))  # casting floa
 print(f"You have bought {quantity1} x {item1}(s) => Total payment: ${Total_cost1}")
 print("")
 
+# %%
 """"
 print("--Exercise 3: Temperature Converter--")
 celsius = float(input("Enter temperature in Celsius: "))  # casting str to float
@@ -79,3 +84,4 @@ bmi = weight / (height ** 2)
 print("Your BMI is: " + str(bmi))  # casting float to str
 print("")
 """
+# %%
