@@ -15,6 +15,10 @@ SYLLABUS
 - and others (online - offline).
   > _Use (Ctrl + click) to follow (open) the link._
 
+## 📺 Video Tutorial
+
+[![Watch on YouTube](https://img.shields.io/badge/Watch-BroCode_Python_Master_Class-red?style=for-the-badge&logo=youtube)](https://youtu.be/Sg4GMVMdOPo)
+
 ## 🚀 Goals
 
 - By the end, you’ll understand the fundamental of Python programming.

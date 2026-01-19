@@ -1,7 +1,7 @@
 # %% P1.2. Variable - Introduction
-# Variable is a named container that holds a value of a certain type:
+# Variable is a named container that holds a value of a certain data type:
 # - type: str, int, float, bool, etc
-# - Python is a dynamically typed language
+# - Python is a "dynamically typed" language
 
 name = "Bro Code"   # type: str
 age = 21    # type: int
@@ -28,5 +28,19 @@ if for_sale or is_student or is_online:
     print("This item is available.")
 else:
     print("This item is not available.")
+
+# %% P1.2.2 Using variables - with type declaration
+first_name: str = "Bro Code"
+age: int = 21
+gpa: float = 3.2
+is_student: bool = True
+email: str = "VtXbG@example.com"
+
+print("--Example 3: using type declaration--")
+print("first_name: str => ", first_name)
+print("age: int => ", age)
+print("gpa: float => ", gpa)
+print("is_student: bool => ", is_student)
+print("email: str => ", email)
 
 # %%

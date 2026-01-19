@@ -14,6 +14,7 @@ print("type(is_student): ",type(is_student))  # type(is_student):  <class 'bool'
 print("\n--Example 2: use Type Casting--")
 print("Name: " + name)       # output: Name: Bro Code
 
+#NOTE: Only numeric strings can be converted:
 print("Cast: int-to-float => float(age): ",float(age)) 
 print("Cast: int-to-str => str(age): " + str(age)) 
 print("Cast: int-to-float-to-str => str(float(age)): " + str(float(age)))
@@ -23,6 +24,11 @@ print("Cast: float-to-int => int(gpa): ",int(gpa))
 
 print("Cast: bool-to-str => str(is_student): " + str(is_student))  # casting bool to str
 print("")
+
+# %%
+#TODO: Trying to Convert Invalid Strings
+text = "hello"
+number = int(text)  # Error! Can't convert "hello" to int
 
 # %% P1.4. User Input
 #! NOTE: input() returns a str - so we need to cast it to the desired type
