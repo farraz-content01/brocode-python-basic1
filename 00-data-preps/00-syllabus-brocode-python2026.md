@@ -51,12 +51,12 @@ Preferensi editor: **VSCode** dengan tambahan ;
 
 ## 🧪 P2: jan-2026-w3
 
-- [ ] #5 (00:32:42) ⭐ madlibs game 📖
-- [ ] #6 (00:37:55) arithmetic & math 📐
-- [ ] #7 (00:51:46) if statements 🤔
-- [ ] #8 (01:00:06) ⭐ calculator program 🧮
-- [ ] #9 (01:05:59) ⭐ weight conversion program 🏋️
-- [ ] #10 (01:09:59) ⭐ temperature conversion program 🌡️
+- [x] #5 (00:32:42) ⭐ madlibs game 📖
+- [x] #6 (00:37:55) arithmetic & math 📐
+- [x] #7 (00:51:46) if statements 🤔
+- [x] #8 (01:00:06) ⭐ calculator program 🧮
+- [x] #9 (01:05:59) ⭐ weight conversion program 🏋️
+- [x] #10 (01:09:59) ⭐ temperature conversion program 🌡️
 - [ ] #11 (01:13:58) logical operators 🌦️
 - [ ] #12 (01:21:28) conditional expressions ❓
 - [ ] #13 (01:27:03) string methods 〰️

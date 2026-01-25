@@ -68,26 +68,3 @@ print(f"You have bought {quantity1} x {item1}(s) => Total payment: ${Total_cost1
 print("")
 
 # %%
-""""
-print("--Exercise 3: Temperature Converter--")
-celsius = float(input("Enter temperature in Celsius: "))  # casting str to float
-fahrenheit = (celsius * 9/5) + 32
-print("Temperature in Fahrenheit: " + str(fahrenheit))  # casting float to str
-print("")
-
-print("--Exercise 4: Simple Interest Calculator--")
-principal = float(input("Enter principal amount: "))  # casting str to float
-interest_rate = float(input("Enter interest rate: "))  # casting str to float
-years = int(input("Enter number of years: "))  # casting str to int
-simple_interest = (principal * interest_rate * years) / 100
-print("Simple Interest: " + str(simple_interest))  # casting float to str
-print("")
-
-print("--Exercise 5: Body Mass Index (BMI) Calculator--")
-weight = float(input("Enter weight in kg: "))  # casting str to float
-height = float(input("Enter height in meters: "))  # casting str to float
-bmi = weight / (height ** 2)
-print("Your BMI is: " + str(bmi))  # casting float to str
-print("")
-"""
-# %%
