@@ -163,4 +163,4 @@ if number % 5 == 0:
 
 ### 🔗 Next Chapter
 
-Continue to [Chapter 7: If Statements](../7-if/) to learn about conditional logic!
+Continue to [Chapter 7: If Statements](../07-if-elif-else/main7.py) to learn about conditional logic!
