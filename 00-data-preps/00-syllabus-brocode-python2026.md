@@ -7,17 +7,31 @@ SYLLABUS
 
 ## 📚 References
 
-- by Noval Agung Prayogo
-  - Youtube: https://www.youtube.com/watch?v=ix9cRaBkVe0&list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH
-  - blog:
+- [x] by `Pavan Mudigonda`
+  - Lead Developer Experience Engineer - Thomson Reuters Canada 
+  - 💻 _Cloud DevOps Engineer | SRE | Multi-Cloud Specialist | Automation | AI/ML_
+  - I'm a hands-on engineer passionate about :
+    - building scalable cloud infrastructure, 
+    - robust automation frameworks, and 
+    - cloud-native solutions.
+  - My work blends `DevOps` best practices with `modern cloud architecture` and `AI/ML` integration.
+    - always focused on building reliable, production-ready systems.
+
+- [x] Links (Video + Hands-On + Repo)
+  - blog: https://abcd.guru/
   - repo 1: https://github.com/PavanMudigonda/python-bro-code
   - repo 2: https://github.com/PavanMudigonda/zero-to-ai
-- and others (online - offline).
-  > _Use (Ctrl + click) to follow (open) the link._
+  
+- [x] others (online - offline).
+  - DevSheets: https://www.devsheets.io/sheets/python-fundamentals
+
+> _Use (Ctrl + click) to follow (open) the link._
 
 ## 📺 Video Tutorial
 
 [![Watch on YouTube](https://img.shields.io/badge/Watch-BroCode_Python_Master_Class-red?style=for-the-badge&logo=youtube)](https://youtu.be/Sg4GMVMdOPo)
+
+- Youtube (Bro Code): https://www.youtube.com/watch?v=ix9cRaBkVe0&list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH
 
 ## 🚀 Goals
 
